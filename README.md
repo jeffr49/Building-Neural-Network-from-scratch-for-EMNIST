@@ -24,10 +24,10 @@ Loss Function: Categorical Cross-Entropy
 • Visualized model performance over epochs using Matplotlib  
 
 ## Technologies Used:
-NumPy
-Pandas
-Matplotlib
-Manual Backpropagation
+NumPy  
+Pandas  
+Matplotlib  
+Manual Backpropagation  
 
 ## Metrics:
 Test Set Metrics:  
