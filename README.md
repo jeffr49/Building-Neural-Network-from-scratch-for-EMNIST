@@ -9,19 +9,19 @@ I built a deep learning model from scratch to classify handwritten characters fr
 ## 🔬 Key Features & Methodologies:
  Dataset: EMNIST Balanced (47 character classes)
  ### Model Architecture:
- • Input Layer: 784 neurons (28x28 grayscale image)
- • Hidden Layer: 256 neurons with ReLU activation
- • Skip Connection: Directly connects input to hidden layer
- • Output Layer: 47 neurons with Softmax activation
-Optimization: Stochastic Gradient Descent (SGD) with Adaptive Learning Rate
-Loss Function: Categorical Cross-Entropy
-✔ Metrics: Accuracy, Precision, Recall, F1 Score, Log Loss, Specificity, AUC-ROC
-✔ Evaluation: Model trained on a combined dataset and tested on the original test set
+ • Input Layer: 784 neurons (28x28 grayscale image)  
+ • Hidden Layer: 256 neurons with ReLU activation  
+ • Skip Connection: Directly connects input to hidden layer  
+ • Output Layer: 47 neurons with Softmax activation  
+Optimization: Stochastic Gradient Descent (SGD) with Adaptive Learning Rate  
+Loss Function: Categorical Cross-Entropy  
+✔ Metrics: Accuracy, Precision, Recall, F1 Score, Log Loss, Specificity, AUC-ROC  
+✔ Evaluation: Model trained on a combined dataset and tested on the original test set  
 
 ## Results & Insights:
-• Achieved high accuracy in character classification with manual backpropagation
-• Implemented detailed metric tracking, including AUC-ROC for multi-class classification
-• Visualized model performance over epochs using Matplotlib
+• Achieved high accuracy in character classification with manual backpropagation  
+• Implemented detailed metric tracking, including AUC-ROC for multi-class classification  
+• Visualized model performance over epochs using Matplotlib  
 
 ## Technologies Used:
 NumPy
